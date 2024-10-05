@@ -15,8 +15,17 @@
     margin: 0 auto;
   }
   
-  
+  .resize {
+    width: 400px;
+    height: auto;
+}
+
+
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
   
+input, button, h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+}
