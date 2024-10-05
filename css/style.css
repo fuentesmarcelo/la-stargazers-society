@@ -10,13 +10,22 @@
   /******************************************
   /* LAYOUT
   /*******************************************/
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
   img{
     display: block;
     margin: 0 auto;
   }
   
   .resize {
-    width: 400px;
+    width: 800px;
     height: auto;
 }
 
@@ -25,7 +34,21 @@
   /* ADDITIONAL STYLES
   /*******************************************/
   
-input, button, h1, h2, h3 {
+/* input, button, h1, h2, h3 {
     display: flex;
     justify-content: center;
+} */
+
+.centerpage{
+  margin: 10px;
+    text-align: center;
+}
+
+h1 {
+  text-align: center; /* Center the h1 text */
+  margin-bottom: 20px; /* Add some space below the h1 */
+}
+
+h2, h3 {
+  text-align: center;
 }
